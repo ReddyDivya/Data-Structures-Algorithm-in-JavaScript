@@ -8,3 +8,5 @@
 - Palindrome
 - Power Of Two
 - Two Sum
+- Pattern - Star
+- Pattern - Number
