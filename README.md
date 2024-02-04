@@ -10,3 +10,4 @@
 - Two Sum
 - Pattern - Star
 - Pattern - Number
+- Sum of all even numbers
