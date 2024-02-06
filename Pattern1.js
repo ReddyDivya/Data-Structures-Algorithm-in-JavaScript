@@ -1,6 +1,5 @@
 /*
-Pattern - star
-StarPattern(4)
+Pattern1(4)
 ****
 ****
 ****
@@ -13,7 +12,7 @@ const StarPattern = (rows, cols) => {
     {
         for(let j=0; j<cols; j++)//no. of cols in a row
         {
-            pattern += "*";
+            pattern += "*" +" ";
         }
         pattern += "\n";
     }

@@ -1,9 +1,8 @@
 /*
-Pattern - numbers
-NumberPattern(3)
-111
-222
-333
+Pattern2(3)
+1 1 1
+2 2 2
+3 3 3
 */
 
 const NumberPattern = (num) => {
@@ -12,7 +11,7 @@ const NumberPattern = (num) => {
     {
         for(let j=1; j<=num; j++)//no. of cols in a row
         {
-            pattern += i;
+            pattern += i +" ";
         }
         pattern += "\n";
     }

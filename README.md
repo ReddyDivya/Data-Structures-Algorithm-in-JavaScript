@@ -8,6 +8,7 @@
 - Palindrome
 - Power Of Two
 - Two Sum
-- Pattern - Star
-- Pattern - Number
-- Sum of all even numbers
+- Sum of all 'n' even numbers
+- Pattern 1
+- Pattern 2
+- Pattern 3
