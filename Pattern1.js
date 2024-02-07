@@ -1,9 +1,9 @@
 /*
 Pattern1(4)
-****
-****
-****
-****
+* * * *
+* * * *
+* * * *
+* * * *
 */
 
 const StarPattern = (rows, cols) => {
