@@ -1,3 +1,9 @@
+/*
+Leetcode-7. Reverse Integer
+ReverseInteger(123);//321
+ReverseInteger(891);//198
+ReverseInteger(-891);//-198
+*/
 const ReverseInteger = (n) => {
     let reverse = 0;
     let isNegNum = false;
