@@ -6,8 +6,7 @@ BinaryToDecimal(1100);//12
 */
 
 const BinaryToDecimal = (binary) => {
-    let decimal = parseInt(binary, 2);
-    return decimal;
+    return decimal = parseInt(binary, 2);
 }
 
 console.log(BinaryToDecimal(1010));//10
