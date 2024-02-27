@@ -2,7 +2,6 @@
 Factorial 
 Factorial(5) => 5*4*3*2*1 = 120
 */
-
 const Factorial = (num) => {
 
     if(num === 0 || num === 1) return 1;

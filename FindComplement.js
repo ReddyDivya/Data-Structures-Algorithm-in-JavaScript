@@ -1,6 +1,5 @@
 /**
  Leetcode-476. Number Complement
-
  * @param {number} num
  * @return {number}
  */
