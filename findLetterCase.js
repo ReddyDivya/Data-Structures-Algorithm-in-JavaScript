@@ -1,6 +1,5 @@
 /*
 Character
-
 */
 
 const findLetterCase = (str) => {
