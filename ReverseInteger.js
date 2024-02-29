@@ -5,6 +5,11 @@ ReverseInteger(891);//198
 ReverseInteger(-891);//-198
 */
 const ReverseInteger = (n) => {
+    
+    //32 bit range
+    const INT_MIN = -2147483648;
+    const INT_MAX = 2147483647;
+
     let reverse = 0;
     let isNegNum = false;
 
@@ -28,6 +33,11 @@ const ReverseInteger = (n) => {
         n = Math.floor(n/10);//12, 1, 0
     }
 
+    if(reverse < INT_MIN || reverse > INT_MAX)
+    {
+        return 0
+    }
+    
     return (isNegNum ?  "-"+reverse : reverse);
 }
 

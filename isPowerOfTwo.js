@@ -5,16 +5,23 @@ isPowerOfTwo(5) => false
 */
 
 const isPowerOfTwo = (num) => {
-    if(num < 1) return false;
+    let ans = 1, INT_MAX = 2147483647;;
 
-    while(num > 1)
+    for(let i=0; i<=30; i++)//int range is 2^31(0-30)
     {
-        if(num % 2 !== 0)
-            return false
+        //checking ans is equal to the given num.
+        if(num == ans)
+            return true;
 
-        num = num/2;
+        /*
+        If ans hasn't reached the maximum integer value (INT_MAX), it multiplies ans by 2 in each iteration, effectively checking the next power of two.
+        */
+        if(ans < INT_MAX)
+            ans = ans * 2;//previous ans * 2
     }
-    return true;
+
+    //If no match is found within the loop, the function returns false
+    return false;
 }
 
 console.log(isPowerOfTwo(1));//true
